@@ -46,7 +46,7 @@ Docker PHP 可以快速构建基于 Docker 的 PHP 本地开发环境，此套 L
     │   │   └── php.ini-production
     │   └── redis
     │       └── redis.conf
-    ├── data 服务数据目录
+    ├── data  服务数据目录
     │   ├── mysql  数据库数据存储目录
     │   ├── nginx
     │   │   ├── cache  应用缓存目录
