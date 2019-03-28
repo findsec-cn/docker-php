@@ -1,0 +1,6 @@
+fastcgi_param  DB_CRM_HOST  '127.0.0.1';
+fastcgi_param  DB_CRM_PORT  '3306';
+fastcgi_param  DB_CRM_USER  'crm';
+fastcgi_param  DB_CRM_PASS  'xxxxxxxxx';
+fastcgi_param  DB_CRM_NAME  'crm';
+

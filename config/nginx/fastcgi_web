@@ -1,0 +1,8 @@
+fastcgi_param  SITE_ENV           'dev';
+fastcgi_param  SCRIPT_FILENAME    $document_root$fastcgi_script_name;
+fastcgi_param  SITE_CACHE_DIR     /data/cache/$server_name/;
+fastcgi_param  SITE_DATA_DIR      /data/data/$server_name/;
+fastcgi_param  SITE_LOG_DIR       /data/logs/app/$server_name/;
+fastcgi_param  SITE_MEMC_SERVER   'memcached:11211';
+fastcgi_param  SITE_REDIS_SERVER  'redis:6379';
+
